@@ -1,0 +1,146 @@
+* {
+    background-color: white;
+}
+
+.outer-box {
+    background-color: white;
+    color: #383838;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+}
+
+.header {
+    font-size: 64px;
+    margin: 5px;
+}
+
+.explain {
+    font-size: 20px;
+    color: #818181;
+    font-weight: 500;
+    text-align: center;
+    width: 50%;
+    padding: 5px;
+}
+
+.inner-box {
+    width: 500px;
+    height: 500px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.orange-circle-back {
+    width: 95%;
+    border-radius: 50%;
+    background: radial-gradient(circle, #FF660080 100%, white 50%);
+    box-shadow: 0 0 30px rgba(255, 102, 0, 0.5);
+    filter: blur(10px);
+    height: 95%;
+    position: relative;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid white;
+    box-shadow: 5px 5pxx 10px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    height: 80%;
+    width: 50%;
+    position: relative;
+    rotate: 7.05deg;
+    padding: 5px;
+    top: -90%;
+    left: 14vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-header {
+    position: relative;
+    width: 90%;
+    height: 20%;
+}
+
+.card-circle {
+    width: 120px;
+    border-radius: 50%;
+    background: #FF6600;
+    box-shadow: 0px 0px 30px rgba(255, 102, 0);
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.status {
+    display: flex;
+    font-weight: 700;
+}
+
+.status p {
+    color: #14AE5C;
+}
+
+.card-policy {
+    font-weight: 500;
+    color: #818181;
+    font-size: 10px;
+    text-align: center;
+}
+
+.card-policy a {
+    color: #FF6600;
+}
+
+.box {
+    position: relative;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 10px;
+    width: fit-content;
+    color: #000;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+    font-size: 18px;
+}
+
+.first {
+    top: -149%;
+    left: -70px;
+}
+
+.second {
+    top: -156%;
+    left: 345px;
+    font-size: 10px;
+    font-weight: 500;
+    color:#383838;
+    text-align: left;
+}
+
+.second div {
+    font-weight: 700;
+    color: black;
+    font-size: 16px;
+}
+
+.third{
+    top: -129%;
+    left: -40px;
+}
+
+.fourth{
+    top: -130%;
+    left: 335px;
+}
