@@ -1,0 +1,157 @@
+.plan-box{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 551px;
+    justify-content: center;
+    align-items: center;
+    margin: 35px 0px 20px 0px;
+}
+
+.plan-card{
+    background-color: white;
+    border: 1px solid #FF6600;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    height: 100%;
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: flex-start;
+    margin: -20px;
+    padding: 20px;
+    color: black;
+}
+
+.plan-header{
+    margin-bottom: 20px;
+}
+
+.popular-plan{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.popular-box{
+    border: 1px solid black;
+    border-radius: 30px;
+    text-wrap: none;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 3px 20px;
+}
+
+.deluxe-plan{
+    background-color: #FF6600;
+    z-index: 2;
+    color: white;
+    height: 110%;
+}
+
+.price{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    padding: 15px;
+}
+
+.price-text{
+    font-size: 53.11px;
+    font-weight: 500;
+}
+
+.timespan{
+    font-size: 20.6px;
+    font-weight: 500;
+    line-height: 90px;
+    height: 0px;
+    margin-left: 10px; 
+}
+
+.btn-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 0px 15px;
+}
+
+.purchase-btn{
+    border-radius: 10px;
+    background-color: #FFF;
+    padding: 15px;
+    font-weight: 600;
+    font-size: 24px;
+    border: none;
+    width: 100%;
+}
+
+.items-list{
+    padding: 10px;
+    font-weight: 600;
+}
+
+.items-list div{
+    margin: 15px 0px;
+    font-size: 16px;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    margin: 10px 0px;
+}
+
+li svg{
+    margin-right: 15px; 
+    width: 25px;
+    height: 17px;
+    position: relative;
+    top: 2px;
+}
+
+.unpopular-list{
+    color: #5959598C;
+}
+
+.platinum-plan{
+    margin-left: 7px;
+}
+
+.platinum-plan .price{
+    color: #FF6600;
+}
+
+.platinum-plan .btn-container .purchase-btn{
+    background-color: #FF6600;
+    color: black;
+}
+
+.basic-plan .price{
+    color: #FF6600;
+}
+
+.basic-plan .btn-container .purchase-btn{
+    background-color: #FF6600;
+    color: black;
+}
+
+.basic-plan .btn-container, .platinum-plan .btn-container{
+    width: 90%;
+}
+
+
+
+
+
+
+

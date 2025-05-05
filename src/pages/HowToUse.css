@@ -1,0 +1,9 @@
+.video-container {
+    width: 989px;
+    height: 534px;
+}
+
+.video-container-inner{
+    width: 100%;
+    height: 100%;
+}

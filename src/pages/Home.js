@@ -5,6 +5,9 @@ import mountain from '../images/mount.png'
 import person from '../images/person.png'
 import AboutExtension from './AboutExtension';
 import HowItWorks from './HowItWorks';
+import HowToUse from './HowToUse';
+import PricingPlans from "./PricingPlans";
+import UserReview from "./UserReview";
 
 export default function Home() {
   return (
@@ -50,6 +53,15 @@ export default function Home() {
       </section>
       <section>
         <HowItWorks></HowItWorks>
+      </section>
+      <section>
+        <HowToUse></HowToUse>
+      </section>
+      <section>
+        <PricingPlans></PricingPlans>
+      </section>
+      <section>
+        <UserReview></UserReview>
       </section>
     </section>
   );
