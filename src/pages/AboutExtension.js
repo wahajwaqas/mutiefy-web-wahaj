@@ -5,7 +5,7 @@ import FullLogo from "../images/FullLogo.png";
 export default function AboutExtension() {
   return (
     <section class="outer-box">
-      <h2 class="header">
+      <h2 class="header-extension">
         About Extension
       </h2>
       <p class="explain">Lorem ipsum dolor sit, amet consectetur adipisicing elit. A atque, suscipit aliquid unde voluptates quibusdam nemo,
